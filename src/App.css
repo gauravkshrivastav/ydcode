@@ -7,6 +7,61 @@
   pointer-events: none;
 }
 
+
+.card-body {
+  padding: 15px 10px;
+}
+
+.tab_content p {
+    padding: 14px;
+    font-size: 20px;
+}
+
+.tabs_section .nav.nav-tabs li a {
+  background-color: #ccc;
+  padding: 6px 7px;
+  margin: 0px 3px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+
+
+
+footer.py-5 {
+    background-color: #292929;
+    color: #fff;
+}
+
+.section {
+  margin: 50px 0px;
+}
+
+.dashboard_option{
+  display: none;
+}
+
+.dashboard_option_active {
+  display: block;
+}
+
+.background_nav .nav-item a.nav-link{
+    color: #fff !important;
+}
+
+.footer_Section li.nav-item a {
+  color: #fff !important;
+}
+
+
+.card_wrapper {
+  display: flex;
+}
+.card {
+  box-shadow: 2px 2px 13px 2px #ccc;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -22,6 +77,42 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.card-title {
+    background-color: #e6e6e6;
+    padding: 8px;
+    font-size: 16px;
+}
+
+header h3{
+
+  margin-left: 20px;
+}
+header {
+  padding: 16px;
+}
+
+.section h3 {
+  margin: 34px 0px;
+  text-align: left;
+}
+
+.dropdown-menu a {
+  color: #000 !important;
+}
+
+.background_nav {
+  background-color: #969696;
+}
+
+.card_image img {
+  height: 100%;
+  width: 100%;
+}
+
+.card_image {
+  height: 150px;
 }
 
 .App-link {
