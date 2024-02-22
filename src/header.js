@@ -13,74 +13,74 @@ return (
           <h3>IT Technologies</h3>
         </div>
       </header>
-      <nav class="navbar navbar-expand-lg navbar-light background_nav">
-        <div class="container">
-          <a href="#" class="navbar-brand">
+      <nav className="navbar navbar-expand-lg navbar-light background_nav">
+        <div className="container">
+          <a href="#" className="navbar-brand">
             Brand
           </a>
           <button
             type="button"
-            class="navbar-toggler"
+            className="navbar-toggler"
             data-bs-toggle="collapse"
             data-bs-target="#navbarCollapse"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div id="navbarCollapse" class="collapse navbar-collapse">
-            <ul class="nav navbar-nav">
-              <li class="nav-item">
-                <a href="#" class="nav-link">
+          <div id="navbarCollapse" className="collapse navbar-collapse">
+            <ul className="nav navbar-nav">
+              <li className="nav-item">
+                <a href="#" className="nav-link">
                   Home
                 </a>
               </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">
+              <li className="nav-item">
+                <a href="#" className="nav-link">
                   Profile
                 </a>
               </li>
-              <li class="nav-item dropdown">
+              <li className="nav-item dropdown">
                 <a
                   href="#"
-                  class="nav-link dropdown-toggle"
+                  className="nav-link dropdown-toggle"
                   data-bs-toggle="dropdown"
                 >
                   Messages
                 </a>
-                <div class="dropdown-menu">
-                  <a href="#" class="dropdown-item">
+                <div className="dropdown-menu">
+                  <a href="#" className="dropdown-item">
                     Inbox
                   </a>
-                  <a href="#" class="dropdown-item">
+                  <a href="#" className="dropdown-item">
                     Drafts
                   </a>
-                  <a href="#" class="dropdown-item">
+                  <a href="#" className="dropdown-item">
                     Sent Items
                   </a>
-                  <div class="dropdown-divider"></div>
-                  <a href="#" class="dropdown-item">
+                  <div className="dropdown-divider"></div>
+                  <a href="#" className="dropdown-item">
                     Trash
                   </a>
                 </div>
               </li>
             </ul>
-            <ul class="nav navbar-nav ms-auto">
-              <li class="nav-item dropdown">
+            <ul className="nav navbar-nav ms-auto">
+              <li className="nav-item dropdown">
                 <a
                   href="#"
-                  class="nav-link dropdown-toggle"
+                  className="nav-link dropdown-toggle"
                   data-bs-toggle="dropdown"
                 >
                   Admin
                 </a>
-                <div class="dropdown-menu dropdown-menu-end">
-                  <a href="#" class="dropdown-item">
+                <div className="dropdown-menu dropdown-menu-end">
+                  <a href="#" className="dropdown-item">
                     Reports
                   </a>
-                  <a href="#" class="dropdown-item">
+                  <a href="#" className="dropdown-item">
                     Settings
                   </a>
-                  <div class="dropdown-divider"></div>
-                  <a href="#" class="dropdown-item">
+                  <div className="dropdown-divider"></div>
+                  <a href="#" className="dropdown-item">
                     Logout
                   </a>
                 </div>

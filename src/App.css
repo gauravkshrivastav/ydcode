@@ -7,9 +7,45 @@
   pointer-events: none;
 }
 
+.tab_section h5 {
+  text-align: left;
+}
+
+.tab_section {
+  display: flex;
+    justify-content: center;
+    box-shadow:2px 2px 14px 4px #dcd8d8;
+    width: 70%;
+    margin: 50px auto;
+    padding: 20px;
+}
 
 .card-body {
   padding: 15px 10px;
+}
+
+.amazon_data,.cloud_data {
+  margin: 0px 10px;
+  width: 100%;
+
+}
+
+  .tabs_section label {
+    margin: 5px 0px;
+  }
+.table tr {
+  border: 1px solid #ccc;
+}
+.table tr td {
+  padding:10px;
+}
+
+select.selector {
+  width: 100%;
+  padding: 5px;
+  margin: 5px 0px;
+  margin: auto;
+  cursor: pointer;
 }
 
 .tab_content p {
